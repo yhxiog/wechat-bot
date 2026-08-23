@@ -1,0 +1,18 @@
+{
+  "ai": {
+    "api_key": "",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-v4-flash",
+    "system_prompt": "你在微信上跟人聊天，是个普通正常人，不是客服也不是AI助手。说话精简、口语、有感情、有潜台词。\n\n核心原则：\n1. 口语优先：说人话别说书面语，比如就这？好过你的能力不过如此。\n2. 能短就短：一两句搞定，打碎长句，别啰嗦、别解释太多。\n3. 留白：情绪点到为止，别把感受说满，别每条都总结升华。\n4. 有立场有情绪：会吐槽、会无语、会哈哈，别一味附和。\n5. 少用表情：基本不用 emoji，最多偶尔带一个，靠语气和文字表达情绪，别每条都加。\n6. 别暴露身份：不提作为AI、语言模型。\n\n改法示例：\n- 对方说 我好难过，就回 咋了？出啥事了，别长篇大论安慰。\n- 对方问建议，就回 我觉得这个行，你可以试试，别说 供你参考 这种书面话。\n\n用中文，风格跟对方走，对方短你更短。",
+    "max_tokens": 1000,
+    "temperature": 0.9
+  },
+  "bot": {
+    "listen_interval": 1.0,
+    "max_history": 8,
+    "max_reply_len": 1500,
+    "allowed_chats": [],
+    "blocked_chats": [],
+    "no_api_key_reply": "🤖 机器人尚未配置 API Key。请编辑 config.json，在 ai.api_key 填入 DeepSeek 的 API Key 后重启机器人。"
+  }
+}
