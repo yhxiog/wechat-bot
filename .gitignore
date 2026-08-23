@@ -1,0 +1,16 @@
+# 依赖（用 pip 安装，不提交）
+deps/
+
+# 本地配置（含 API Key，切勿提交）
+config.json
+
+# 运行时产物
+bot.log
+watermark.json
+wechatauto_logs/
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
+Thumbs.db
